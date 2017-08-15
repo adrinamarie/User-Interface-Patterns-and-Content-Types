@@ -1,0 +1,401 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AHRQ Style Guide: UI Design Elements & Patterns</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">AHRQ's Style Guide</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Content Types</a></li>
+											<li><a href="elements.html">UI Elements</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>AHRQ's UI Design Elements & Patterns</h2>
+							<p>Patterns are a simple, reusable solution to a design problem.</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<section>
+									<h4>Text Styling</h4>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<header>
+										<h4>Heading 4</h4>
+										<p>Lorem ipsum subtitles galore.</p>
+									</header>
+									<p>Paragraphical element unc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+									<header>
+										<h5>Heading 5</h5>
+										<p>Lorem ipsum subtitles galore.</p>
+									</header>
+									<p>Paragraphical element unc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h5>Blockquote</h5>
+									<blockquote>"If you want a [return] on our basic and clinical investments at NIH, you need AHRQ to improve care delivery so patients can benefit from the therapies that NIH discovered. AHRQ and only AHRQ is responsible for research on how to do it." <p>-Peter Pronovost, M.D., Ph.D.</p></blockquote>
+									<h5>Preformatted</h5>
+									<pre><code>
+
+i = 0;
+
+while (!deck.isInOrder()) {
+  print 'Iteration ' + i;
+  deck.shuffle();
+  i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';
+	
+								</code></pre>
+								</section>
+
+								<section>
+									<h4>List Types</h4>
+									<div class="row">
+										<div class="6u 16u$(medium)">
+											<h5>Unordered Lists</h5>
+											<ul>
+												<li>Item 1</li>
+												<li>Item 2</li>
+												<li>Item 3</li>
+											</ul>
+											<h5>Alternate List</h5>
+											<ul class="alt">
+												<li>Thing 1</li>
+												<li>Thing 2</li>
+												<li>Thing 3</li>
+											</ul>
+										</div>
+										<div class="6u$ 16u$(medium)">
+											<h5>Ordered Lists</h5>
+											<ol>
+												<li>Item 1</li>
+												<li>Item 2</li>
+												<li>Item 3</li>
+												<li>Item 4</li>
+											</ol>
+											<h5>Icons We Use</h5>
+											<ul class="icons">
+												<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon fa-bar-chart"><span class="label">Chart</span></a></li>
+												<li><a href="#" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+												<li><a href="#" class="icon fa-envelope"><span class="label">Mail</span></a></li>
+												<li><a href="#" class="icon fa-rss"><span class="label">RSS</span></a></li>
+												<li><a href="#" class="icon fa-share"><span class="label">Share</span></a></li>
+												<li><a href="#" class="icon fa-print"><span class="label">Print</span></a></li>
+												<li><a href="#" class="icon fa-drupal"><span class="label">Drupal</span></a></li>
+												<li><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a></li>
+												<li><a href="#" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<h5>Behaviors, Actions, & States</h5>
+									<div class="row">
+										<div class="6u 16u$(medium)">
+											<ul class="actions">
+												<li><a href="#" class="button special">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+											<ul class="actions small">
+												<li><a href="#" class="button special small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+											<ul class="actions vertical">
+												<li><a href="#" class="button special">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+											<ul class="actions vertical small">
+												<li><a href="#" class="button special small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+										</div>
+
+
+										<div class="6u 16u$(medium)">
+											<ul class="actions vertical">
+												<li><a href="#" class="button special fit">Default</a></li>
+												<li><a href="#" class="button fit">Default</a></li>
+											</ul>
+											<ul class="actions vertical small">
+												<li><a href="#" class="button special small fit">Small</a></li>
+												<li><a href="#" class="button small fit">Small</a></li>
+											</ul>
+										</div>
+									</div>
+
+
+								</section>
+
+								<section>
+									<h4>Tables AHRQ Uses</h4>
+									<h5>Example Without Borders</h5>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Tool</th>
+													<th>Description</th>
+													<th>Format</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									<h5>Alternate Example</h5>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>File Size</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>AHRQ Research Studies Data Info Example.</td>
+													<td><a href="#" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>[PDF file - 0.0 KB]</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h4>Buttons</h4>
+									<ul class="actions">
+										<li><a href="#" class="button special">Special</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button big">Big</a></li>
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions fit">
+										<li><a href="#" class="button fit">Fit</a></li>
+										<li><a href="#" class="button special fit">Fit</a></li>
+										<li><a href="#" class="button fit">Fit</a></li>
+									</ul>
+									<ul class="actions fit small">
+										<li><a href="#" class="button special fit small">Fit + Small</a></li>
+										<li><a href="#" class="button fit small">Fit + Small</a></li>
+										<li><a href="#" class="button special fit small">Fit + Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button special icon fa-download">Icon</a></li>
+										<li><a href="#" class="button icon fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button special disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h4>Form</h4>
+									<form method="post" action="#">
+										<div class="row uniform">
+											<div class="6u 16u$(xsmall)">
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+											</div>
+											<div class="6u$ 16u$(xsmall)">
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+											</div>
+											<div class="16u$">
+												<div class="select-wrapper">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">AHRQ Team</option>
+														<option value="1">Job Info</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+											</div>
+											<div class="6u 16u$(small)">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="6u 16u$(small)">
+												<input type="radio" id="demo-priority-normal" name="demo-priority">
+												<label for="demo-priority-normal">Normal</label>
+											</div>
+											<div class="6u$ 16u$(small)">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="6u 16u$(small)">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="6u$ 16u$(small)">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="16u$">
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+											<div class="16u$">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="special" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</section>
+
+								<section>
+									<h4>User Interface Elements</h4>
+									<h5>Patterns seen across the site.</h5>
+									<div class="box alt">
+										<div class="row uniform 50%">
+											<div class="16u"><span class="image fit"><img src="images/ui-01.png" alt="Example Wireframe" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Yellow-Brief-Full.png" alt="Yellow Brief" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Video-Feature-Full.png" alt="YouTube Video Frame" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Nav_Block-Whats_New-Full.png" alt="What's New Block" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Global_Nav-Full.png" alt="Global Navigation" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Top_Nav-Full.png" alt="Top Navigation" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Tweets-Full.png" alt="Twitter Feed" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Footer-Full.png" alt="Footer" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Social-Full.png" alt="Social Media Block" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Mega_Menu-Full.png" alt="Mega Menu" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Slides-Full.png" alt="Slides" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Featured_Card-Full.png" alt="Featured Card" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Pagination.png" alt="Pagination" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Grey-Brief.png" alt="Grey Brief" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Citations_Brief-Full.png" alt="Citations Brief" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Grey_Footer-Full.png" alt="HHS Footer" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Global-Search-Full.png" alt="Global Search" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Cards-Full.png" alt="Cards" /></span></div>
+											<div class="6u"><span class="image fit"><img src="images/patterns/Design_Patterns-Blue_Bar-Full.png" alt="Blue Bar" /></span></div>
+										</div>
+									</div>
+								</section>
+
+							</div>
+						</section>
+					</article>
+
+			<!-- CTR-->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>View Wireframes</h2>
+								<p>Whether AHRQ.gov users are aware of it or not, we have become familiar with elements acting in a certain way. Choosing to adopt those elements when appropriate will help with task completion, efficiency, and satisfaction.</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="index.html" class="button fit special">View Now</a></li>
+								<li><a href="https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section>
+
+					<!-- Footer -->
+						<footer id="footer">
+							<ul class="icons">
+								<li><a href="https://twitter.com/AHRQNews" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/ahrq.gov" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.youtube.com/user/AHRQHealthTV" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+								<li><a href="https://www.linkedin.com/company/agency-for-healthcare-research-and-quality" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; 2017 Agency for Healthcare Research and Quality</li>
+							</ul>
+						</footer>
+
+				</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
